@@ -9,10 +9,6 @@
 .MainNav{
     padding-left: 30px;
 }
-
-.name{
-    padding-top: 30px;
-}
 .last_part{
     padding-top: 30px;
     padding-bottom: 30px;
@@ -28,6 +24,7 @@
     padding-top: 20px;
     padding-down: 20px;
     font-weight: 300;
+    text-align: justify;
 }
 .Education{
     margin-left: 40%;
@@ -37,6 +34,7 @@
 
 .skills{
     font-weight: 300;
+    text-align: justify;
 }
 .cta{
     padding-top: 80px;
@@ -50,4 +48,7 @@
 }
 #bb{
     background-color: #51557D;
+}
+.middle{
+    text-align: justify;
 }
