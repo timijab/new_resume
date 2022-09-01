@@ -9,11 +9,14 @@
 .MainNav{
     padding-left: 30px;
 }
+
+.name{
+    padding-top: 30px;
+}
 .last_part{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 /*dont know if working tho*/
 @media (min-width: 1200px)
 .name{
@@ -22,9 +25,9 @@
 }
 .professional{
     padding-top: 20px;
-    padding-down: 40px;
+    padding-down: 20px;
     font-weight: 300;
-    
+    text-align: justify;
 }
 .Education{
     margin-left: 40%;
