@@ -12,12 +12,6 @@ app = Flask(__name__)
 # app won't  work without security autorisation
 app.config['SECRET_KEY'] = '8BYkEfBA6O6donzWlSihBXox7C0sKR6b'
 app.config['TEMPLATES_AUTO_RELOAD'] = True
-if app.config['LOG_WITH_GUNICORN']:
-    gunicorn_error_logger = logging.getLogger('gunicorn.error')
-    app.logger.handlers.extend(gunicorn_error_logger.handlers)
-    app.logger.setLevel(logging.DEBUG)
-else:
-    pass
 bootstrap = Bootstrap(app)
 ckeditor = CKEditor(app)
 
